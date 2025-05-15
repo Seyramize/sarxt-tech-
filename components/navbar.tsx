@@ -5,6 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import ButtonLink from "@/components/button-link"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -40,9 +41,18 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-2xl font-bold">
-            <span className="text-gray-900 dark:text-white">Sarxt</span>
-            <span className="text-blue-600">Tech</span>
+          <Link href="/" className="flex items-center space-x-2">
+            <Image
+              src="/logo.png" // Change to "/placeholder-logo.svg" if you prefer SVG
+              alt="Sarxt Tech Logo"
+              width={140}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
+            {/* Optionally, keep the text for branding */}
+            {/* <span className="text-2xl font-bold text-gray-900 dark:text-white">Sarxt</span>
+            <span className="text-2xl font-bold text-blue-600">Tech</span> */}
           </Link>
 
           {/* Desktop Navigation */}

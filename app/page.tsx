@@ -258,25 +258,25 @@ export default function Home() {
           <div className="flex flex-wrap justify-center mb-16 gap-4">
             {[
               {
-                value: "10+",
+                value: "4+",
                 label: "Years Experience",
                 icon: <Clock className="h-10 w-10 text-blue-300" />,
                 description: "Delivering excellence since 2013",
               },
               {
-                value: "200+",
+                value: "85+",
                 label: "Projects Completed",
                 icon: <CheckCircle className="h-10 w-10 text-green-300" />,
                 description: "Across diverse industries worldwide",
               },
               {
-                value: "50+",
+                value: "10+",
                 label: "Team Members",
                 icon: <Users className="h-10 w-10 text-purple-300" />,
                 description: "Experts in their respective fields",
               },
               {
-                value: "95%",
+                value: "85%",
                 label: "Client Satisfaction",
                 icon: <ThumbsUp className="h-10 w-10 text-yellow-300" />,
                 description: "Based on post-project surveys",

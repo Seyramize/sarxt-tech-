@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin, HelpCircle, FileText } from "lucide-react"
 import ButtonLink from "@/components/button-link"
 
@@ -8,9 +9,17 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              Sarxt Tech
-            </h3>
+            <div className="flex items-center mb-4">
+              <Image
+                src="/logo.png"
+                alt="Sarxt Tech Logo"
+                width={40}
+                height={40}
+                className="h-10 w-auto mr-2 bg-transparent"
+                priority
+              />
+             
+            </div>
             <p className="text-gray-300 mb-6">
               Providing cutting-edge technology solutions for businesses since 2010. We help organizations transform
               through technology.
@@ -144,11 +153,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-blue-400 mr-3 mt-0.5" />
-                <span className="text-gray-300">123 Tech Avenue, Innovation District, CA 94103</span>
+                <span className="text-gray-300">Accra, Ghana</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-400 mr-3" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">(+233) 54-650-6220</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-3" />

@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
@@ -9,6 +10,8 @@ import { CustomButton } from "@/components/custom-button"
 import ScheduleButton from "@/components/schedule-button"
 
 export default function ProjectsPage() {
+  const [selectedCategory, setSelectedCategory] = useState("All")
+
   const projects = [
     {
       id: "enterprise-ecommerce",
@@ -68,6 +71,11 @@ export default function ProjectsPage() {
 
   const categories = ["All", "Web Development", "Mobile Applications", "Software Engineering", "Network Engineering"]
 
+  const filteredProjects =
+    selectedCategory === "All"
+      ? projects
+      : projects.filter((project) => project.category === selectedCategory)
+
   return (
     <main>
       <PageHeader
@@ -82,8 +90,8 @@ export default function ProjectsPage() {
             {categories.map((category, index) => (
               <CustomButton
                 key={index}
-                variant={index === 0 ? "default" : "outline"}
-                onClick={() => console.log(`Filter by: ${category}`)}
+                variant={selectedCategory === category ? "default" : "outline"}
+                onClick={() => setSelectedCategory(category)}
               >
                 {category}
               </CustomButton>
@@ -96,7 +104,7 @@ export default function ProjectsPage() {
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project) => (
+            {filteredProjects.map((project) => (
               <Card key={project.id} className="border-0 shadow-md overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />

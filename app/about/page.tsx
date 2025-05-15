@@ -26,8 +26,7 @@ export default function AboutPage() {
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              For over a decade, we've been transforming businesses through technology, delivering solutions that drive
-              growth and create exceptional experiences.
+              Since 2019, we've been on a mission to help startups and forward-thinking businesses innovate, grow, and make an impact through technology.
             </p>
           </div>
         </div>
@@ -56,7 +55,7 @@ export default function AboutPage() {
                     <Users className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gray-900 dark:text-white">50+</div>
+                    <div className="text-3xl font-bold text-gray-900 dark:text-white">12+</div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">Team Members</div>
                   </div>
                 </div>
@@ -65,7 +64,7 @@ export default function AboutPage() {
                     <Award className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gray-900 dark:text-white">10+</div>
+                    <div className="text-3xl font-bold text-gray-900 dark:text-white">5+</div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">Years Experience</div>
                   </div>
                 </div>
@@ -77,23 +76,16 @@ export default function AboutPage() {
                 About Sarxt Tech
               </div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Transforming Businesses Through Technology
+                Empowering Innovation as a Startup
               </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Founded in 2010, Sarxt Tech has grown from a small IT consultancy to a leading technology solutions
-                provider serving clients across multiple industries. Our journey has been defined by a commitment to
-                excellence, innovation, and client satisfaction.
+                Founded in 2019, Sarxt Tech began as a passionate startup with a bold vision: to disrupt the technology landscape and empower businesses of all sizes with innovative digital solutions. Our journey is defined by agility, creativity, and a relentless drive to solve real-world problems.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                We specialize in delivering enterprise-grade technology solutions that help businesses streamline
-                operations, enhance customer experiences, and achieve their strategic objectives. Our team of
-                experienced professionals combines technical expertise with business acumen to deliver solutions that
-                drive real results.
+                We specialize in building scalable, user-centric products for startups and forward-thinking organizations. Our diverse team of engineers, designers, and entrepreneurs thrives on collaboration, rapid iteration, and a growth mindset.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-8">
-                At Sarxt Tech, we believe in building long-term partnerships with our clients. We take the time to
-                understand your business challenges and goals, and work collaboratively to develop solutions that
-                address your specific needs.
+                At Sarxt Tech, we believe in challenging the status quo, embracing change, and partnering with visionary clients to turn ambitious ideas into reality. We’re not just a tech company—we’re a startup on a mission to make a lasting impact.
               </p>
               <ButtonLink href="/services">Explore Our Services</ButtonLink>
             </div>
@@ -186,47 +178,47 @@ export default function AboutPage() {
           <CompanyTimeline
             milestones={[
               {
-                year: "2010",
-                title: "Company Founded",
+                year: "2019",
+                title: "Startup Launched",
                 description:
-                  "Sarxt Tech was founded with a vision to provide innovative technology solutions to businesses.",
+                  "Sarxt Tech was founded as a dynamic startup with a mission to disrupt the technology landscape and empower businesses with innovative digital solutions.",
                 icon: <Clock className="h-6 w-6" />,
               },
               {
-                year: "2012",
-                title: "First Major Client",
-                description: "Secured our first enterprise client and delivered a successful e-commerce platform.",
+                year: "2020",
+                title: "First Seed Funding",
+                description: "Secured initial seed funding to accelerate product development and expand our core team.",
                 icon: <Users className="h-6 w-6" />,
               },
               {
-                year: "2014",
-                title: "Office Expansion",
-                description: "Expanded our team and moved to a larger office to accommodate our growing business.",
+                year: "2021",
+                title: "Product Launch",
+                description: "Launched our flagship SaaS platform, gaining early traction with startups and SMEs.",
                 icon: <Award className="h-6 w-6" />,
               },
               {
-                year: "2016",
-                title: "International Expansion",
-                description: "Opened our first international office and began serving clients globally.",
+                year: "2022",
+                title: "Growth & Partnerships",
+                description: "Formed strategic partnerships and expanded our client base, focusing on rapid growth and innovation.",
                 icon: <Lightbulb className="h-6 w-6" />,
               },
               {
-                year: "2018",
-                title: "Technology Innovation Award",
-                description: "Received industry recognition for our innovative approach to software development.",
-                icon: <Award className="h-6 w-6" />,
-              },
-              {
-                year: "2020",
-                title: "10 Year Anniversary",
-                description: "Celebrated 10 years of success with over 200 completed projects and 50+ team members.",
-                icon: <Award className="h-6 w-6" />,
-              },
-              {
                 year: "2023",
-                title: "New Headquarters",
+                title: "Series A Funding",
+                description: "Closed Series A funding round to scale operations, enhance our product, and enter new markets.",
+                icon: <Award className="h-6 w-6" />,
+              },
+              {
+                year: "2024",
+                title: "Team Expansion",
+                description: "Grew to a diverse team of 20+ innovators, engineers, and entrepreneurs, united by a startup mindset.",
+                icon: <Award className="h-6 w-6" />,
+              },
+              {
+                year: "2025",
+                title: "Startup to Scaleup",
                 description:
-                  "Moved to our new state-of-the-art headquarters designed for collaboration and innovation.",
+                  "Transitioned from a startup to a scaleup, recognized for our agile culture, rapid innovation, and impact in the tech ecosystem.",
                 icon: <Lightbulb className="h-6 w-6" />,
               },
             ]}
