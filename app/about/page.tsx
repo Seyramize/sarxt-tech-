@@ -242,9 +242,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Robert Chen",
+                name: "Seyram Yao Alifo",
                 position: "Chief Executive Officer",
-                bio: "With over 20 years of experience in the technology sector, Robert leads Sarxt Tech with a focus on innovation and strategic growth.",
+                bio: "With over 10 years of experience in the technology sector, Robert leads Sarxt Tech with a focus on innovation and strategic growth.",
                 image: "/robert-chen-ceo.png",
                 linkedin: "#",
                 twitter: "#",
