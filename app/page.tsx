@@ -75,7 +75,7 @@ export default function Home() {
                     <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-30"></div>
                     <div className="relative bg-gray-800 rounded-2xl overflow-hidden h-full">
                       <Image
-                        src="/tech-dashboard-visualization.png"
+                        src="/homescreen.png"
                         alt="Sarxt Tech Digital Solutions"
                         fill
                         className="object-cover opacity-90"
@@ -171,7 +171,7 @@ export default function Home() {
                 description:
                   "Complete internet infrastructure solutions including hosting, domain management, and cloud services.",
                 link: "/services/internet-solutions",
-                image: "/placeholder.svg?key=q8oiq",
+                image: "/internetsol.jpg",
                 icon: <Globe className="h-10 w-10 text-green-400" />,
               },
               {
