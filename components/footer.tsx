@@ -157,11 +157,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-400 mr-3" />
-                <span className="text-gray-300">(+233) 54-650-6220</span>
+                <a href="tel:+233546506220" className="text-gray-300 hover:text-blue-400 transition-colors">(+233) 54-650-6220</a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-3" />
-                <span className="text-gray-300">info@sarxttech.com</span>
+                <a href="mailto:info@sarxttech.com" className="text-gray-300 hover:text-blue-400 transition-colors">info@sarxttech.com</a>
               </li>
             </ul>
             <div className="mt-6">

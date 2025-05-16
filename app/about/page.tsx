@@ -244,7 +244,7 @@ export default function AboutPage() {
               {
                 name: "Seyram Yao Alifo",
                 position: "Chief Executive Officer",
-                bio: "With over 10 years of experience in the technology sector, Robert leads Sarxt Tech with a focus on innovation and strategic growth.",
+                bio: "With over 10 years of experience in the technology sector, Seyram leads Sarxt Tech with a focus on innovation and strategic growth.",
                 image: "/robert-chen-ceo.png",
                 linkedin: "#",
                 twitter: "#",
@@ -265,30 +265,30 @@ export default function AboutPage() {
                 linkedin: "#",
                 twitter: "#",
               },
-              {
-                name: "Sarah Johnson",
-                position: "VP of Client Services",
-                bio: "Sarah leads our client services team, focusing on building strong relationships and ensuring our solutions align with client objectives.",
-                image: "/sarah-johnson-vp.png",
-                linkedin: "#",
-                twitter: "#",
-              },
-              {
-                name: "Michael Thompson",
-                position: "VP of Engineering",
-                bio: "Michael directs our engineering teams, bringing extensive experience in software architecture and development methodologies.",
-                image: "/michael-thompson-vp.png",
-                linkedin: "#",
-                twitter: "#",
-              },
-              {
-                name: "Lisa Chen",
-                position: "VP of Marketing",
-                bio: "Lisa drives our marketing strategy, leveraging her background in technology marketing to enhance our brand presence and client engagement.",
-                image: "/lisa-chen-vp.png",
-                linkedin: "#",
-                twitter: "#",
-              },
+              // {
+              //   name: "Sarah Johnson",
+              //   position: "VP of Client Services",
+              //   bio: "Sarah leads our client services team, focusing on building strong relationships and ensuring our solutions align with client objectives.",
+              //   image: "/sarah-johnson-vp.png",
+              //   linkedin: "#",
+              //   twitter: "#",
+              // },
+              // {
+              //   name: "Michael Thompson",
+              //   position: "VP of Engineering",
+              //   bio: "Michael directs our engineering teams, bringing extensive experience in software architecture and development methodologies.",
+              //   image: "/michael-thompson-vp.png",
+              //   linkedin: "#",
+              //   twitter: "#",
+              // },
+              // {
+              //   name: "Lisa Chen",
+              //   position: "VP of Marketing",
+              //   bio: "Lisa drives our marketing strategy, leveraging her background in technology marketing to enhance our brand presence and client engagement.",
+              //   image: "/lisa-chen-vp.png",
+              //   linkedin: "#",
+              //   twitter: "#",
+              // },
             ].map((member, index) => (
               <TeamMemberCard key={index} {...member} />
             ))}

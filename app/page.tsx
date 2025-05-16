@@ -249,8 +249,7 @@ export default function Home() {
               <div className="h-1 w-24 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mt-4 rounded-full animate-pulse"></div>
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              With over a decade of experience, we've helped businesses of all sizes achieve their digital
-              transformation goals.
+              Since 2019, we've been helping startups and ambitious businesses achieve their digital transformation goals through innovation and technology.
             </p>
           </div>
 
@@ -258,10 +257,10 @@ export default function Home() {
           <div className="flex flex-wrap justify-center mb-16 gap-4">
             {[
               {
-                value: "4+",
+                value: "5+",
                 label: "Years Experience",
                 icon: <Clock className="h-10 w-10 text-blue-300" />,
-                description: "Delivering excellence since 2013",
+                description: "Delivering excellence since 2019",
               },
               {
                 value: "85+",
@@ -270,7 +269,7 @@ export default function Home() {
                 description: "Across diverse industries worldwide",
               },
               {
-                value: "10+",
+                value: "12+",
                 label: "Team Members",
                 icon: <Users className="h-10 w-10 text-purple-300" />,
                 description: "Experts in their respective fields",

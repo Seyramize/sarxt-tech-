@@ -27,7 +27,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Our Location</h3>
-                    <p className="text-gray-600 dark:text-gray-300">123 Tech Avenue, Innovation District, CA 94103</p>
+                    <p className="text-gray-600 dark:text-gray-300">Accra, Ghana</p>
                   </div>
                 </div>
 
@@ -37,7 +37,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Phone</h3>
-                    <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                    <a
+                      href="tel:+233546506220"
+                      className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      (+233) 54-650-6220
+                    </a>
                   </div>
                 </div>
 
@@ -47,7 +52,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">Email</h3>
-                    <p className="text-gray-600 dark:text-gray-300">info@sarxttech.com</p>
+                    <a
+                      href="mailto:info@sarxttech.com"
+                      className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      info@sarxttech.com
+                    </a>
                   </div>
                 </div>
 
